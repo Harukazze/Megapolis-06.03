@@ -1,6 +1,6 @@
 import csv
 
-with open('scientist.txt', encoding='utf-8' ) as f:
+with open('scientist.txt', encoding='utf-8') as f:
     reader = csv.reader(f, delimiter='#')
     reader = list(reader)
     authors = {}
